@@ -66,20 +66,20 @@
 <meta property="og:site_name" content="佘一人">
 <meta property="og:description" content="前提该要 前几天，一朋友过来问我，能否帮忙下载某某文库的收费文档，可不可以做到。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://sweetolive.github.io/.io//01.png">
-<meta property="og:image" content="http://sweetolive.github.io/.io//02.png">
-<meta property="og:image" content="http://sweetolive.github.io/.io//03.png">
-<meta property="og:image" content="http://sweetolive.github.io/.io//04.png">
-<meta property="og:image" content="http://sweetolive.github.io/.io//07.png">
-<meta property="og:image" content="http://sweetolive.github.io/.io//05.png">
-<meta property="og:image" content="http://sweetolive.github.io/.io//06.png">
-<meta property="og:image" content="http://sweetolive.github.io/.io//08.png">
-<meta property="og:image" content="http://sweetolive.github.io/.io//09.png">
+<meta property="og:image" content="http://sweetolive.github.io/2021/10/09/1/01.png">
+<meta property="og:image" content="http://sweetolive.github.io/2021/10/09/1/02.png">
+<meta property="og:image" content="http://sweetolive.github.io/2021/10/09/1/03.png">
+<meta property="og:image" content="http://sweetolive.github.io/2021/10/09/1/04.png">
+<meta property="og:image" content="http://sweetolive.github.io/2021/10/09/1/07.png">
+<meta property="og:image" content="http://sweetolive.github.io/2021/10/09/1/05.png">
+<meta property="og:image" content="http://sweetolive.github.io/2021/10/09/1/06.png">
+<meta property="og:image" content="http://sweetolive.github.io/2021/10/09/1/08.png">
+<meta property="og:image" content="http://sweetolive.github.io/2021/10/09/1/09.png">
 <meta property="og:updated_time" content="2021-10-09T14:55:57.928Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="教你如何下载各种文库的收费文档">
 <meta name="twitter:description" content="前提该要 前几天，一朋友过来问我，能否帮忙下载某某文库的收费文档，可不可以做到。">
-<meta name="twitter:image" content="http://sweetolive.github.io/.io//01.png">
+<meta name="twitter:image" content="http://sweetolive.github.io/2021/10/09/1/01.png">
   <link rel="canonical" href="http://sweetolive.github.io/2021/10/09/1/">
 
 
@@ -378,14 +378,14 @@
 <hr>
 <h3 id="分析下载"><a href="#分析下载" class="headerlink" title="分析下载"></a>分析下载</h3><ul>
 <li>注意：这种方法适用<strong>百度文库，360文库，道客巴巴文库</strong>收费文档的下载，包含<strong>Word、PPT、PDF</strong>，下面将以道客巴巴为例子进行讲解。</li>
-<li>打开自己想要的下载的文档页面，按F12进入开发者，按照截图选中，可以看到，该文档的第一页内容其实就是一个图片，很明显有一个图片地址。这里是关键，我们下载文档全靠这地址了。<br><img src="/.io//01.png" alt="01"></li>
+<li>打开自己想要的下载的文档页面，按F12进入开发者，按照截图选中，可以看到，该文档的第一页内容其实就是一个图片，很明显有一个图片地址。这里是关键，我们下载文档全靠这地址了。<br><img src="//sweetolive.github.io/2021/10/09/1/01.png" alt="01"></li>
 <li>竟然找到了图片的链接，那么我们是不是只要获取到这个要下载的文档的所有图片链接，然后把图片下载下来就可以了，是的，没错，就是这么简单，这么容易。</li>
 <li>那么我们只要考虑如何通过HTML的代码解析出所有的图片链接了，然后对应图片下载下来就可以了不是 ，再把图片转成自己想要的<strong>Word、PPT、PDF</strong>，不就很完美了。</li>
-<li>开始干活，提取HTML文件，这里有个坑，就是多页的文档，会有个继续阅读全文的按钮，要把那个按钮点了，把整个文档加载出来才行，记住，一定要加载完全，不然会有缺漏页。<br><img src="/.io//02.png" alt="02"></li>
-<li>等待加载完全就把对应的HTML代码如图右键截取（copy =&gt; copy element）出来放到自己命名的txt记事本上面，我这里取名字为3.txt<br><img src="/.io//03.png" alt="03"><br><img src="/.io//04.png" alt="04"></li>
-<li>在PyCharm执行对应的py代码，解析图片地址，把解析出来的图片地址在控制台复制出来，放到新的txt文件中，这里取名4.txt<br><img src="/.io//07.png" alt="07"><br><img src="/.io//05.png" alt="05"></li>
-<li>在IDEA执行对应的Java代码，下载图片到对应的桌面文件夹中，这里在桌面新建个名为2的文件夹。<br><img src="/.io//06.png" alt="06"><br><img src="/.io//08.png" alt="08"></li>
-<li>这里我要下载的是132页的PDF文档，不出意外下载下来也是132页的图片。<br><img src="/.io//09.png" alt="09"></li>
+<li>开始干活，提取HTML文件，这里有个坑，就是多页的文档，会有个继续阅读全文的按钮，要把那个按钮点了，把整个文档加载出来才行，记住，一定要加载完全，不然会有缺漏页。<br><img src="//sweetolive.github.io/2021/10/09/1/02.png" alt="02"></li>
+<li>等待加载完全就把对应的HTML代码如图右键截取（copy =&gt; copy element）出来放到自己命名的txt记事本上面，我这里取名字为3.txt<br><img src="//sweetolive.github.io/2021/10/09/1/03.png" alt="03"><br><img src="//sweetolive.github.io/2021/10/09/1/04.png" alt="04"></li>
+<li>在PyCharm执行对应的py代码，解析图片地址，把解析出来的图片地址在控制台复制出来，放到新的txt文件中，这里取名4.txt<br><img src="//sweetolive.github.io/2021/10/09/1/07.png" alt="07"><br><img src="//sweetolive.github.io/2021/10/09/1/05.png" alt="05"></li>
+<li>在IDEA执行对应的Java代码，下载图片到对应的桌面文件夹中，这里在桌面新建个名为2的文件夹。<br><img src="//sweetolive.github.io/2021/10/09/1/06.png" alt="06"><br><img src="//sweetolive.github.io/2021/10/09/1/08.png" alt="08"></li>
+<li>这里我要下载的是132页的PDF文档，不出意外下载下来也是132页的图片。<br><img src="//sweetolive.github.io/2021/10/09/1/09.png" alt="09"></li>
 <li>至此，图片下载完了，那么转成什么格式的文档我就不用多说了吧，这就很简单了，大功告成，欢喜，奶茶祝贺！</li>
 </ul>
 <hr>

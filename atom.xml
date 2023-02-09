@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://sweetolive.github.io/"/>
-  <updated>2023-02-09T11:51:57.052Z</updated>
+  <updated>2023-02-09T12:03:42.222Z</updated>
   <id>http://sweetolive.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://sweetolive.github.io/2023/02/09/%E5%B0%8F%E7%99%BDChatGPT%E6%B3%A8%E5%86%8C%E5%85%A8%E6%95%99%E7%A8%8B/"/>
     <id>http://sweetolive.github.io/2023/02/09/小白ChatGPT注册全教程/</id>
     <published>2023-02-09T11:18:06.000Z</published>
-    <updated>2023-02-09T11:51:57.052Z</updated>
+    <updated>2023-02-09T12:03:42.222Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>这段时间ChatGPT很火，于是尝试了一下，本篇记录一下尝试过程，以及遇到的问题</p></blockquote><a id="more"></a><h3 id="获取梯子"><a href="#获取梯子" class="headerlink" title="获取梯子"></a>获取梯子</h3><p>在注册一个OpenAi账号之前必须可以出去，很多人卡在这一步，这里介绍一款注册登录可以免费使用一天的梯子，足够注册使用了，<a href="https://sockboom.bar/auth/register?affid=516506" target="_blank" rel="noopener">网站</a>，简单注册完就可以下载Clash，然后导入配置，如图：<br><img src="//sweetolive.github.io/2023/02/09/小白ChatGPT注册全教程/1.png" alt="01"></p><p>最后就是节点的选择，选择Rule节点下的新加坡普通节点，在主页打开系统代理，就可以开始注册OpenAi了</p><p><img src="//sweetolive.github.io/2023/02/09/小白ChatGPT注册全教程/2.png" alt="02"></p><h3 id="注册账号"><a href="#注册账号" class="headerlink" title="注册账号"></a>注册账号</h3><h4 id="谷歌浏览器无痕窗口模式"><a href="#谷歌浏览器无痕窗口模式" class="headerlink" title="谷歌浏览器无痕窗口模式"></a>谷歌浏览器无痕窗口模式</h4><ul><li><p>谷歌浏览器，右上角三点打开新的无痕模式窗口</p><p><img src="//sweetolive.github.io/2023/02/09/小白ChatGPT注册全教程/3.png" alt="03"></p></li><li><p>打开<a href="https://chat.openai.com/auth/login" target="_blank" rel="noopener">注册网页</a>进行注册，这里可以用QQ邮箱注册</p><p><img src="//sweetolive.github.io/2023/02/09/小白ChatGPT注册全教程/4.png" alt="04"></p><p><img src="//sweetolive.github.io/2023/02/09/小白ChatGPT注册全教程/5.png" alt="05"></p></li><li><p>填完邮箱，最后需要验证，会发送一封邮件到QQ邮箱，这里需要等待一段时间</p><p><img src="//sweetolive.github.io/2023/02/09/小白ChatGPT注册全教程/6.png" alt="06"></p></li></ul><h4 id="手机短信验证"><a href="#手机短信验证" class="headerlink" title="手机短信验证"></a>手机短信验证</h4><ul><li><p>完成以上步骤后，就可以登录了，接下来是手机验证环节，可以用这个<a href="https://sms-activate.org/" target="_blank" rel="noopener">接码平台</a>，同样先完成注册登录，注意，在购买账号前需要先充值，我充了0.85美元，也就是6 RMB，可以用支付宝扫码付款，充值完毕就可以购买接收短信的手机账号了，我买的是泰国的手机号：</p><ul><li><p>选中OpenAi服务</p><p><img src="//sweetolive.github.io/2023/02/09/小白ChatGPT注册全教程/7.png" alt="07"></p></li><li><p>选中泰国的手机</p><p><img src="//sweetolive.github.io/2023/02/09/小白ChatGPT注册全教程/8.png" alt="08"></p></li><li><p>填上手机等待验证码，将平台获取到验证码填入，这就完成注册了</p><p><img src="//sweetolive.github.io/2023/02/09/小白ChatGPT注册全教程/9.png" alt="09"></p></li></ul></li><li><p>重新打开<a href="https://chat.openai.com/chat" target="_blank" rel="noopener">ChatGPT</a>，就可以开始使用了</p></li></ul><h3 id="聊天对话"><a href="#聊天对话" class="headerlink" title="聊天对话"></a>聊天对话</h3><p>  <img src="//sweetolive.github.io/2023/02/09/小白ChatGPT注册全教程/10.png" alt="10"></p><p>  <img src="//sweetolive.github.io/2023/02/09/小白ChatGPT注册全教程/11.png" alt="11"></p><p>  <img src="//sweetolive.github.io/2023/02/09/小白ChatGPT注册全教程/12.png" alt="12"></p><h3 id="问题解决"><a href="#问题解决" class="headerlink" title="问题解决"></a>问题解决</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">遇到最多的就是当前地区无法访问，这时候就要清除浏览器记录了，复制下面这段代码到浏览器窗口</span><br><span class="line"></span><br><span class="line">注意：javascript:无法复制，需手打；点击确认后不会有其他反应，刷新当前页面即可；</span><br><span class="line">     </span><br><span class="line">javascript:window.localStorage.removeItem(Object.keys(window.localStorage).find(i=&gt;i.startsWith(&apos;@@auth0spajs&apos;)))</span><br><span class="line"></span><br><span class="line">其他的问题，大体上都是访问不到，那就是梯子没设置好，检查一下重新设置一下；</span><br><span class="line">接收不到验证码的话，那就换个国家号码试试，在有效时间内没收到验证码可以删掉退款，所以不用太担心。</span><br></pre></td></tr></table></figure><p> <img src="//sweetolive.github.io/2023/02/09/小白ChatGPT注册全教程/13.png" alt="13"></p><blockquote><p>希望大家看完都可以成功注册并用上</p></blockquote>]]></content>
     
@@ -34,8 +34,8 @@
     </summary>
     
     
+      <category term="其他" scheme="http://sweetolive.github.io/categories/%E5%85%B6%E4%BB%96/"/>
     
-      <category term="其他" scheme="http://sweetolive.github.io/tags/%E5%85%B6%E4%BB%96/"/>
     
   </entry>
   
